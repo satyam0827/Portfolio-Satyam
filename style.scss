@@ -70,7 +70,8 @@ body{
     left: 0;
     width: 100%;
     background-color: red;
-    box-shadow: 1px 4px 4px rgb(0 0 0/40%);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
+
     z-index: 10;
     
     & .nav-list{
@@ -84,7 +85,7 @@ body{
             transition: all 0.5s;
 
             &:hover{
-                background-color: rgb(101 52 52);
+                background-color: rgb(101, 52, 52);
                 color: white;
             }
         }
@@ -98,7 +99,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(101 52 52);
+    background-color: rgb(101, 52, 52);
 
     & span{
         color: red;
@@ -125,16 +126,16 @@ body{
         grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
         grid-gap: 3rem;
         margin-top: 9rem;
-       
         
         & .projects_link {
+            overflow: hidden;
             border-radius: 8px;
-            background-color:rgb(101 52 52) ;
+            background-color:rgb(101, 52, 52) ;
            background-size: contain;
            text-decoration: none;
            color:#419ab9;
            box-shadow:-2px 2px 10px -2px #000000;
-           transition:all ease-out 0.5s;
+           transition:all ease-in-out 0.4s;
 
             &:hover{
                 box-shadow:-4px 4px 15px -2px #000000;
