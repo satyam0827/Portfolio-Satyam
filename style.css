@@ -204,10 +204,10 @@ body {
   display: inline-block;
   padding: 2rem 5rem;
   border-radius: 2px;
-  transition: all 0.5s ease-out;
+  transition: all 0.5s ease-in-out;
 }
 #contact-section .contact-links .btn:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 #contact-section .contact-links i {
   color: white;
